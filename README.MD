@@ -15,7 +15,7 @@
     ```
     ln -s $PWD/oh-my-tmux/tmux.conf ~/.tmux.conf
     ```
-> When you execute `echo $PWD` in shell, you will know what the `$PWD` means. 
+> When you execute `echo $PWD` in shell, you will know what the `$PWD` means.
 > Yes, it means the path of current directory you stayed.
 
 3. Install [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
@@ -45,8 +45,4 @@
 
     Ctrl+b + r # let Tmux config work
     ```
-or just use below shell after you backup your old tmux.conf
 
-```
-sh -c "$(curl -fSL https://raw.githubusercontent.com/hoseahsu/oh-my-tmux/master/install.sh)"
-```
