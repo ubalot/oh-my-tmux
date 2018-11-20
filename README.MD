@@ -7,7 +7,7 @@
 1. Clone this [Repo.](https://github.com/hoseahsu/oh-my-tmux) to a path you like, such as `HOME` or anywhere you want:
 
     ```
-    git clone https://github.com/hoseahsu/oh-my-tmux.git ~/oh-my-tmux
+    git clone https://github.com/ubalot/oh-my-tmux.git ~/oh-my-tmux
     ```
 
 2. Change the directory you just cloned(maybe `cd ~/oh-my-tmux`), and create symbolic link `.tmux.conf` to `$HOME` path
