@@ -39,10 +39,10 @@
 6. Install & Update [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
 
     ```
-    Ctrl+b + I # waiting for installed...
+    Ctrl+a + I # waiting for installed...
 
-    Ctrl+b + U # waiting for updating...
+    Ctrl+a + U # waiting for updating...
 
-    Ctrl+b + r # let Tmux config work
+    Ctrl+a + r # let Tmux config work
     ```
 
