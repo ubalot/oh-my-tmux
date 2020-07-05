@@ -4,7 +4,7 @@
 
 ![](./attach/final_effect.png)
 
-1. Clone this [Repo.](https://github.com/hoseahsu/oh-my-tmux) to a path you like, such as `HOME` or anywhere you want:
+1. Clone this [Repo.](https://github.com/hoseahsu/oh-my-tmux) to a path you like, such as `$HOME` or anywhere you want:
 
     ```
     git clone https://github.com/ubalot/oh-my-tmux.git ~/oh-my-tmux
@@ -13,7 +13,7 @@
 2. Change the directory you just cloned(maybe `cd ~/oh-my-tmux`), and create symbolic link `.tmux.conf` to `$HOME` path
 
     ```
-    ln -s ./oh-my-tmux/tmux.conf ~/.tmux.conf
+    ln -s ~/oh-my-tmux/tmux.conf ~/.tmux.conf
     ```
 > When you execute `echo $PWD` in shell, you will know what the `$PWD` means.
 > Yes, it means the path of current directory you stayed.
@@ -39,10 +39,10 @@
 6. Install & Update [Tmux](http://tmux.github.io/) plugins via [TPM](https://github.com/tmux-plugins/tpm)
 
     ```
-    Ctrl+a + I # waiting for installed...
+    Ctrl+b + I # waiting for installed...
 
-    Ctrl+a + U # waiting for updating...
+    Ctrl+b + U # waiting for updating...
 
-    Ctrl+a + r # let Tmux config work
+    Ctrl+b + r # let Tmux config work
     ```
 
